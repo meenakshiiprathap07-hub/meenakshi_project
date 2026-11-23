@@ -11,10 +11,10 @@ class BankAccount:
         print("Account Number:", self.account_number)
         print("Available Balance: ₹", self.balance)
 
-name = input("Enter account holder name: ")
-account_number = input("Enter account number: ")
+name = input("Enter acc holder name: ")
+account_number = input("Enter account no ")
 balance = float(input("Enter account balance: "))
 
-account = BankAccount(name, account_number, balance)
+account = BankAccount(name, acc_number, balance)
 
 account.check_balance()
